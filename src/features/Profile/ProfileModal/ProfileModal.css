@@ -1,0 +1,15 @@
+.ant-modal-footer {
+    padding: 10px 0 0 0;
+    text-align: right;
+    background: tranparent;
+    border-top: 1px solid #e8e8e8;
+    border-radius: 0 0 4px 4px;
+}
+
+.ant-modal-header {
+    padding: 0 0 16px 0;
+    color: rgba(0, 0, 0, .65);
+    background: #fff;
+    border-bottom: 1px solid #e8e8e8;
+    border-radius: 4px 4px 0 0;
+}
