@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { update, selectData } from '../response/responseSlice'
 import uuid from 'react-uuid';
-import { Col, Row } from 'antd';
+import { Col, Grid, Row } from 'antd';
 
 import Profile from '../Profile/Profile'
 import Loading from '../Loader/Loading';
@@ -32,7 +32,7 @@ const Dashboard = () => {
 
 
     return (
-        <>
+        <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
             {
                 loading
                     ?
@@ -48,7 +48,7 @@ const Dashboard = () => {
                         }
                     </Row>
             }
-        </>
+        </div>
     )
 }
 
